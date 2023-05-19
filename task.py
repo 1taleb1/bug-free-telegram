@@ -17,3 +17,5 @@ def flatten(d, parent_key='', sep='_'):
         else:
             items.append((new_key, v))
     return dict(items)
+def main():
+    print('DONE')
