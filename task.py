@@ -8,6 +8,8 @@ import json
 import urllib
 
 
+def new_main():
+    pass
 def flatten(d, parent_key='', sep='_'):
     items = []
     for k, v in d.items():
